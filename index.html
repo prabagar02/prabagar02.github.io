@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<SCRIPT type="text/javascript">
-	var actualPassword;
-	var enteredPass="1234";
+	<script type="text/javascript">
+		var s ="";
 
-	actualPassword=prompt('Website is protected, please enter password to enter.',' ');
+		while (s!= "mypassword")
+		{
+		s=prompt("please enter your password");
+		if (s=="mypassword")
+		{
+		window.location.href="correct.html"; //page to redirect if password entered is correct
 
-	if (actualPassword==enteredPass)
-	  alert('Welcome. Click ok to enter');
-	else
-	   {
-	    window.location="http://sivapraba.me/ua.html";
-	    }
-	</SCRIPT>
+		}
+		else
+		{
+		alert("Incorrect password-Try again");
+
+		}
+		}
+</script>
 	<title>CPS530 Lab 1</title>
  </head>
  <body>
