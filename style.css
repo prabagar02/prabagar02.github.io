@@ -1,0 +1,54 @@
+h1 {
+  color: #ff0000 ;
+  font-family: Georgia;
+  text-align: center;
+
+}
+
+h2 {
+  color: #ff0000;
+  font-family: Georgia;
+  text-align: center;
+
+}
+
+h3 {
+  font-family: Georgia;
+
+}
+
+ul {
+  font-family: Georgia;
+  text-shadow: #aaa 3px 3px 3px;
+
+}
+
+p {
+  text-shadow: #aaa 2px 2px 2px;
+  font-family: Georgia;
+}
+
+.table , tr
+{
+  nth-child(even) background-color: #4CAF50;
+    width: 100%;
+    padding: 14px;
+    text-align: left;
+    font-family: Georgia;
+    color: white;
+}
+
+.table , td {
+
+  border-bottom: 2px solid #ddd;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.bball{
+
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
