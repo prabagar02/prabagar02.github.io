@@ -30,7 +30,7 @@ p {
 
 .table , tr
 {
-  nth-child(even) background-color: #4CAF50;
+  nth-child(even) background-color: ##D3D3D3;
     width: 100%;
     padding: 14px;
     text-align: left;
