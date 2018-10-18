@@ -46,7 +46,8 @@ p {
 }
 
 .sizin{
-color: #ff0000;
+  border-style: solid;
+    border-color: red;
   border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
